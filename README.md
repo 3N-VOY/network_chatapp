@@ -2,7 +2,7 @@
 This project implements a multi-client chat application in Python, featuring RSA asymmetric encryption for secure communication and SSL for encryption during socket communication. The application utilizes threading for handling multiple clients concurrently.
 
 # Features
-Server-side Features
+## Server-side Features
 *	RSA Asymmetric Encryption: Generates Private and Public keys, Utilizes RSA keys for secure communication between the server and clients.
 *	SSL/TLS for Secure Communication: Implements SSL/TLS for secure socket communication. Generated using OpenSSL.
 *	Multithreading: Supports multiple clients concurrently using threading.
@@ -10,7 +10,7 @@ Server-side Features
 *	User Authentication: Prompts users to enter a username for identification in the chat. Each client has a unique id generated and sent to the server which is stored in a dictionary along with the username.
 
 
-# Client-side Features
+## Client-side Features
 *	RSA Asymmetric Encryption: Similar to the server, clients generate and use RSA keys for secure communication.
 *	SSL/TLS for Secure Communication: Establishes a secure connection with the server using SSL/TLS. Generated using OpenSSL.
 *	Multithreading: Supports simultaneous sending and receiving of messages.
