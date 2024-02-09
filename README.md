@@ -1,10 +1,6 @@
 # Network_chatapp
 This project implements a multi-client chat application in Python, featuring RSA asymmetric encryption for secure communication and SSL for encryption during socket communication. The application utilizes threading for handling multiple clients concurrently.
 
-# Overview
-This project implements a multi-client chat application in Python, featuring RSA asymmetric encryption for secure communication and SSL for encryption during socket communication. The application utilizes threading for handling multiple clients concurrently.
-
-
 # Features
 Server-side Features
 *	RSA Asymmetric Encryption: Generates Private and Public keys, Utilizes RSA keys for secure communication between the server and clients.
