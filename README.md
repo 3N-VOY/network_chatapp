@@ -1,4 +1,4 @@
-# network_chatapp
+# Network_chatapp
 This project implements a multi-client chat application in Python, featuring RSA asymmetric encryption for secure communication and SSL for encryption during socket communication. The application utilizes threading for handling multiple clients concurrently.
 
 # Overview
@@ -32,10 +32,10 @@ Chat Commands:
 *	Type exit to disconnect from the chat.
 
 # Requirements
-Python 3.x
-*RSA library: Install using:
+* Python 3.x
+* RSA library: Install using:
 `pip install rsa`
-*OpenSSL:
+* OpenSSL:
 `pip install pyOpenSSL`
 
 
